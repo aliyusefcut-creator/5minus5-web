@@ -19,6 +19,14 @@
   }
 }
 
+/* marquee animation used on the hero keywords */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%);
+  }
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
